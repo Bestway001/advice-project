@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&display=swap");
+body {
+  background-color: hsl(218, 23%, 16%);
+  color: white;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card {
+  width: 320px;
+  position: relative;
+  background-color: hsl(217, 19%, 24%);
+  padding: 30px;
+  border-radius: 10px;
+}
+#ad-id {
+  text-align: center;
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 3px;
+  /* margin: ; */
+  margin-top: 0;
+}
+#pattern {
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+#dice {
+  position: absolute;
+  bottom: -20px;
+  background-color: hsl(150, 100%, 66%);
+  padding: 10px;
+  border-radius: 50%;
+  left: 165px;
+}
+#ad-body {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
