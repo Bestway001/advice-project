@@ -9,6 +9,6 @@ async function FetchData() {
   const json = await response.json();
   console.log(json);
   AdviceTitle.innerText = ` Advice ${json.slip.id}`
-  AdviceBody.innerText = `:${json.slip.advice}`;
+  AdviceBody.innerText = `${json.slip.advice}`;
 }
 dice.addEventListener("click", FetchData)
